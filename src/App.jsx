@@ -35,8 +35,8 @@ const App = () => {
   ]);
 
   return (
-    <div className="w-screen h-screen  max-w-[800px] mx-auto m-20">
-      <div className="w-full ml-10 grid grid-col-1 grid-rows-1  lg:grid-cols-2 gap-4">
+    <div className="w-screen h-screen  max-w-xl mx-auto m-20">
+      <div className="w-full  grid grid-col-1 place-content-center md:grid-cols-2  gap-4">
         {engineers.map((engineer) => (
           <Engineer key={engineer.id} engineer={engineer} />
         ))}
